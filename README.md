@@ -1,15 +1,8 @@
-<h1 align="center">📡 DoS Tool</h1> 
+<h1 align="center">📡 DoS Tool - L7 & L4</h1> 
 <div align="center">
 
 
-</div>
 
-<p align="center">
-  <img src="img/logo.png" width="250" height="250">
-</p>
-
-<div align="center">
-  <h1>💻 Preview</h1>
 </div>
 <p align="center">
   <img src="img/preview.gif">
