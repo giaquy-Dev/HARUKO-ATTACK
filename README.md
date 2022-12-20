@@ -14,7 +14,7 @@
   <h2>Windows</h2><br>
 </div>
 
-Download Python 3.10 [here](https://www.python.org/downloads/), open the installer and click on `add python to PATH`. Next, download `overload` <a href="https://github.com/7zx/overload/archive/refs/heads/main.zip" target="blank">here</a> and open CMD or PowerShell in its directory. Now you need to create a Virtual Enviroment for the application; if you have `make` utility on your system just execute:
+Download Python 3.10 [here](https://www.python.org/downloads/), open the installer and click on `add python to PATH`. Next, download `overload` <a href="https://github.com/giaquy-Dev/HARUKO-ATTACK.git" target="blank">here</a> and open CMD or PowerShell in its directory. Now you need to create a Virtual Enviroment for the application; if you have `make` utility on your system just execute:
 
   ```
   make setup
@@ -26,7 +26,7 @@ If you don't have it, then execute:
   ```
   curl -sSL https://install.python-poetry.org | python3
   poetry install --without dev
-  poetry run python3 overload.py
+  poetry run python3 haruko.py
   ```
 
   ---
@@ -38,7 +38,7 @@ If you don't have it, then execute:
 ```
 sudo apt update
 sudo apt install python3 git -y
-git clone https://github.com/7zx/overload
+git clone https://github.com/giaquy-Dev/HARUKO-ATTACK
 cd overload/
 
 make setup
@@ -56,11 +56,11 @@ make run
 pkg update
 pkg install python3 git -y
 
-git clone https://github.com/7zx/overload
+git clone https://github.com/giaquy-Dev/HARUKO-ATTACK
 cd overload/
 
 pip install -r requirements.txt
-python3 overload.py
+python3 haruko.py
 ```
 
 ---
@@ -82,7 +82,7 @@ HTTP GET Attack Example:
 │   ├───METHOD: HTTP
 │   ├───TIME: 600
 │   ├───THREADS: 800
-│   └───URL: https://github.com/7zx/overload
+│   └───URL: https://github.com/giaquy-Dev/HARUKO-ATTACK
 ```
 
 Slowloris Attack Example:  
@@ -93,7 +93,7 @@ Slowloris Attack Example:
 │   ├───TIME: 300
 │   ├───THREADS: 200
 │   ├───SLEEP TIME: 15
-│   └───URL: https://github.com/7zx/overload
+│   └───URL: https://github.com/giaquy-Dev/HARUKO-ATTACK
 ```
 
 Overload can also perform an L4 attack (SYN-FLOOD) if you're running it on a Posix system:
