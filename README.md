@@ -39,7 +39,7 @@ If you don't have it, then execute:
 sudo apt update
 sudo apt install python3 git -y
 git clone https://github.com/giaquy-Dev/HARUKO-ATTACK
-cd overload/
+cd HARUKO-ATTACK/
 
 make setup
 make run
@@ -57,7 +57,7 @@ pkg update
 pkg install python3 git -y
 
 git clone https://github.com/giaquy-Dev/HARUKO-ATTACK
-cd overload/
+cd HARUKO-ATTACK/
 
 pip install -r requirements.txt
 python3 haruko.py
